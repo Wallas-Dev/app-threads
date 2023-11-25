@@ -23,7 +23,8 @@ Para evitar bloqueios no thread principal, especialmente durante operações dem
 # Estratégias para Threads de Trabalho
 O Android oferece métodos para acessar o thread de IU a partir de threads de trabalho, como Activity.runOnUiThread(Runnable) e View.post(Runnable).
 
-`fun onClick(v: View) {
+```
+fun onClick(v: View) {
     Thread(Runnable {
         // tarefa potencialmente demorada
         val bitmap = processBitMap("image.png")
@@ -31,4 +32,5 @@ O Android oferece métodos para acessar o thread de IU a partir de threads de tr
             imageView.setImageBitmap(bitmap)
         }
     }).start()
-}`
+}
+```
