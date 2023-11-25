@@ -1,5 +1,5 @@
 # Threads: Visão Geral dos Processos e Threads no Android
-# Introdução
+## Introdução
 Quando um componente de aplicativo é iniciado no sistema Android e não há outro componente em execução, o sistema cria um novo processo no Linux para o aplicativo, equipado com um único thread de execução. Este thread é chamado de "principal" e, por padrão, todos os componentes do mesmo aplicativo são executados no mesmo processo e thread. Este README explora a dinâmica de processos e threads em aplicativos Android.
 
 ## Processos
