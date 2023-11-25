@@ -34,3 +34,6 @@ fun onClick(v: View) {
     }).start()
 }
 ```
+
+## Refêrencia
+Developers Android: https://developer.android.com/guide/components/processes-and-threads?hl=pt-br
